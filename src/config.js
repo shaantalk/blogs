@@ -18,7 +18,7 @@ export const config = {
   title : "Santanu Panda" ,
 
   // Your Personal Blog Subtitle
-  subtitle : "Software Developer",
+  subtitle : "Welcome to Santanu's blogs",
 
   // Header customization
   header: {

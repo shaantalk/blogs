@@ -5,10 +5,12 @@ export const lightTheme = {
   toggleBorder: "#070707",
   background: "#363537",
 };
+
 export const darkTheme = {
   mode: "dark",
-  body: "#2E3440",
+  body: "#262626",
   text: "#FAFAFA",
   toggleBorder: "#6B8096",
   background: "#999",
 };
+

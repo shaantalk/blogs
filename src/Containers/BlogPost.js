@@ -176,10 +176,10 @@ export default function BlogHome() {
               <div>
                 <AuthorName>{post.author.login}</AuthorName>
                 <PostDate>
-                  {moment(post.updatedAt).format("DD MMM YYYY")} .{readingTime(post.body).minutes} Min Read .
-                  <PostDateLink href={post.url} target="_black">
+                  {moment(post.updatedAt).format("DD MMM YYYY")} - {readingTime(post.body).minutes} Min Read .
+                  {/* <PostDateLink href={post.url} target="_black">
                     View On Github
-                  </PostDateLink>
+                  </PostDateLink> */}
                 </PostDate>
               </div>
             </AuthorDetails>

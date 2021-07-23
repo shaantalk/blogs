@@ -5,7 +5,7 @@ const { backgroundColor, backgroundColorDark } = config.header;
 
 export const HeaderContainer = styled.div`
   position: relative;
-  padding: 5em;
+  padding: 0.5em;
   text-align: center;
   background: ${(props) => props.theme.mode === "light" ? backgroundColor : backgroundColorDark};
   background-repeat: no-repeat;
@@ -13,6 +13,6 @@ export const HeaderContainer = styled.div`
   background-size: cover;
 
   @media only screen and (max-width: 768px) {
-    padding: 3em;
+    padding: 1.5em;
   }
 `

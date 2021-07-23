@@ -4,7 +4,7 @@ export const BackButton = styled.button`
   outline: none;
   border: 1px solid;
   font-size: 22px;
-  font-family: "Shadows Into Light", serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   border-radius: 5px;
   padding: 0px 20px 0 30px;
   cursor: pointer;

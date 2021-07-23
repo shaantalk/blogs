@@ -12,7 +12,7 @@ const Router = () => {
     <HashRouter history={history}>
       <Switch>
         <Route exact path="/" component={Blog} />
-        <Route exact path="/blog/:title/:issueNumber" component={BlogPost}/>
+        <Route exact path="/:title/:issueNumber" component={BlogPost}/>
       </Switch>
     </HashRouter>
   );
